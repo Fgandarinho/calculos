@@ -20,5 +20,14 @@ namespace Calculos
             return soma;
         
         }
+        public int Subtrair(int x, int y)
+        {
+            int subtracao = 0;
+            subtracao = x - y;
+            return subtracao;
+        }
+
+
+
     }
 }
