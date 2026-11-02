@@ -12,7 +12,9 @@ namespace Calculos
         {
             Console.WriteLine("Aplicação Cálculos");
 
-            Console.ReadKey();
+            Console.WriteLine($"4+2={}");
+            
+             Console.ReadKey();
         }
     }
 }

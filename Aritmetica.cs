@@ -29,7 +29,7 @@ namespace Calculos
         /// Operação soma
         /// </summary>
         /// <returns>Retorna a soma de dois números</returns>
-        public int Somar(int x, int y)
+        public static int Somar(int x, int y)
         {
             int soma = 0;
             soma = x + y;
@@ -41,7 +41,7 @@ namespace Calculos
         /// Operação de subtração
         /// </summary>
         /// <returns>Retorna a subtração de dois números</returns>
-        public int Subtrair(int x, int y)
+        public static int Subtrair(int x, int y)
         {
             int subtracao = 0;
             subtracao = x - y;
@@ -54,7 +54,7 @@ namespace Calculos
         /// <param name="conversao"> A conversão a efetuar</param>
         /// <param name="temperatura"> A tempertura a converter</param>
         /// <returns>resultado da conversão</returns>
-        public double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
+        public static double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
         {
             if (conversao == ConversaoTemperatura.CelciusFahrenheit)
             {
