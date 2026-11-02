@@ -36,5 +36,16 @@ namespace Calculos
             subtracao = x - y;
             return subtracao;
         }
+
+        /// <summary>
+        /// Operação de multiplicação
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        public static int Multiplicar(int x, int y)
+        {
+            return x * y;
+        }
     }
 }
